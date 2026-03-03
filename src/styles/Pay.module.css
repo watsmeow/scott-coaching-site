@@ -1,0 +1,32 @@
+.stack{ display:flex; flex-direction:column; gap: 18px; }
+.badges{ display:flex; flex-wrap:wrap; gap: 8px; }
+
+.note{ color: rgba(255,255,255,.55); font-size: 12px; }
+
+.lead{
+  margin-top:0;
+  max-width: 720px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.payCard{
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.06);
+  padding: 16px;
+}
+.payTitle{ font-weight: 900; text-transform:uppercase; letter-spacing: 1px; }
+.payText{ margin-top: 6px; color: var(--muted); font-size: 14px; line-height: 1.45; }
+
+.tip{
+  margin-top: 16px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,.25);
+  padding: 12px 14px;
+  color: rgba(255,255,255,.75);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.tip strong{ color: rgba(255,255,255,.92); }

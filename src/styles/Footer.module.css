@@ -1,0 +1,19 @@
+.footer{
+  margin-top:auto;
+  border-top: 1px solid var(--border);
+  padding: 22px 0;
+  color: rgba(255,255,255,.65);
+}
+.row{
+  display:flex;
+  flex-direction:column;
+  gap: 6px;
+}
+@media (min-width: 760px){
+  .row{
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+  }
+}
+.muted{ color: rgba(255,255,255,.40); }
