@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className="container">
         <div className={styles.row}>
-          <p>© {new Date().getFullYear()} Scott Coaching</p>
+          <p>© {new Date().getFullYear()} Scott McNally Coaching</p>
           <p className={styles.muted}>Payments handled via Stripe.</p>
         </div>
       </div>

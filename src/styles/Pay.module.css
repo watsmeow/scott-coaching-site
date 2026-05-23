@@ -30,3 +30,19 @@
   line-height: 1.5;
 }
 .tip strong{ color: rgba(255,255,255,.92); }
+
+.sectionLabel {
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(242, 194, 0, 0.9);
+}
+
+.portalCard {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.06);
+  padding: 16px;
+}
