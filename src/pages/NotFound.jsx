@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function NotFound() {
   return (
     <section className="card">
@@ -11,9 +12,9 @@ export default function NotFound() {
         <p style={{ color: "rgba(255,255,255,.7)", lineHeight: 1.6 }}>
           This page doesn’t exist. Which is honestly relatable.
         </p>
-        <a className="btn btnPrimary" href="/" style={{ marginTop: 12 }}>
+        <Link className="btn btnPrimary" to="/" style={{ marginTop: 12 }}>
           BACK HOME
-        </a>
+        </Link>
       </div>
     </section>
   );

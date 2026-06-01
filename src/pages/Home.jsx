@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "../styles/Home.module.css";
 
 function Service({ title, summary, children }) {
@@ -38,7 +39,7 @@ export default function Home() {
           </p>
 
           <div className={styles.actions}>
-            <a className="btn btnPrimary" href="/pay">MAKE A PAYMENT</a>
+            <Link className="btn btnPrimary" to="/pay">MAKE A PAYMENT</Link>
             <a className="btn" href="mailto:mcnallydiets@gmail.com">CONTACT</a>
           </div>
 
