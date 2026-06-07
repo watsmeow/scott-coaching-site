@@ -46,3 +46,11 @@
   background: rgba(255,255,255,.06);
   padding: 16px;
 }
+
+.priceLine {
+  margin-top: 6px;
+  color: var(--yellow);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
