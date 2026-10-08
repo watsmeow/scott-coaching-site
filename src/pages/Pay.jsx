@@ -75,6 +75,20 @@ export default function Pay() {
             check with Scott before submitting payment.
           </p>
 
+          <div className={styles.authorizationNotice} role="alert">
+            <strong className={styles.authorizationTitle}>Payment Authorization Required</strong>
+            <p>
+              Please do not submit a payment or start a subscription unless Scott has
+              personally confirmed that you are approved for coaching and instructed
+              you to make that payment.
+            </p>
+            <p>
+              <strong>Sending a payment does not guarantee acceptance as a coaching client.</strong>{" "}
+              If you have not received confirmation from Scott, please contact him
+              before proceeding.
+            </p>
+          </div>
+
           <div className={styles.sectionLabel}>Pay for Services</div>
 
           <div className="grid3">
